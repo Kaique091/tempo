@@ -21,6 +21,8 @@ body {
     opacity: 0.8;
     border-radius: 25px;
     padding: 20px;
+    width: 95%;
+    max-width: 450px;
 }
 
 .input-city {
@@ -47,8 +49,37 @@ body {
 .img-search {
     width: 20px;
 }
-.city{
+
+.box-average {
+    margin-top: 30px;
+}
+
+.city {
     color: #ffffff;
     font-size: 28px;
     font-weight: 500;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.box-small {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.text-forecast {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.humidity {
+    color: #ffffff;
+    margin-top: 20px;
 }
